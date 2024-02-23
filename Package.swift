@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "StoryBars",
+    name: "MAStoryBars",
     
     platforms: [.iOS(.v13)],
     
