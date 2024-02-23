@@ -130,7 +130,7 @@ import UIKit
         }
     }
     
-    private func stop() {
+    public func stop() {
         if hidesOnHold {
             hideUIAction?()
             
