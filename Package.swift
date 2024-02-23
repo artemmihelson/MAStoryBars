@@ -3,15 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "MAStoryBars",
+    name: "StoryBars",
     
     platforms: [.iOS(.v13)],
     
     products: [
-        .library(name: "MAStoryBars", targets: ["MAStoryBars"])
+        .library(name: "StoryBars", targets: ["StoryBars"])
     ],
     
     targets: [
-        .target(name: "MAStoryBars", dependencies: [])
+        .target(name: "StoryBars", dependencies: [])
     ]
 )
