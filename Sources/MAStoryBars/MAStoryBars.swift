@@ -7,7 +7,7 @@
 
 import UIKit
 
-@IBDesignable public class StoryBars: UIView {
+@IBDesignable public class MAStoryBars: UIView {
     
     /// Color of the single story bar's background.
     @IBInspectable public var emptyColor: UIColor = .gray
@@ -258,7 +258,7 @@ import UIKit
 public class StoryBarsInteractionView: UIView {
     
     /// Assign a `StoryBars` object to control it.
-    public var storyBars: StoryBars!
+    public var storyBars: MAStoryBars!
     
     public override func draw(_ rect: CGRect) {
         let tap = UITapGestureRecognizer(target: self, action: #selector(handleTap))

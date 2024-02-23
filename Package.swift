@@ -8,10 +8,10 @@ let package = Package(
     platforms: [.iOS(.v13)],
     
     products: [
-        .library(name: "StoryBars", targets: ["StoryBars"])
+        .library(name: "MAStoryBars", targets: ["MAStoryBars"])
     ],
     
     targets: [
-        .target(name: "StoryBars", dependencies: [])
+        .target(name: "MAStoryBars", dependencies: [])
     ]
 )
